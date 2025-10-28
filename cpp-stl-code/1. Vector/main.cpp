@@ -43,7 +43,7 @@ int main()
     v.emplace_back(13); // generally faster than <push_back>
 
     // Add 14 to the position (start) of the vector
-    v.insert(v.begin(), 10);
+    v.insert(v.begin(), 14);
 
     // Add 14 to the position (end) of the vector
     v.insert(v.end(), 14);
